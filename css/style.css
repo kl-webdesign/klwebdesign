@@ -1,3 +1,8 @@
-body {
-  background-color: black;
+body, html { margin: 0px;}
+
+#graphic{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
 }
