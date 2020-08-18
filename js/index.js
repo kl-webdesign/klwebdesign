@@ -1,15 +1,17 @@
 
-const page1 = document.querySelector('.page1')
-const page2 = document.querySelector('.page2')
-const page1Content = document.querySelector('.page1Content')
-const page2Content = document.querySelector('.page2Content')
-
+const page1 = document.querySelector('.page1');
+const page2 = document.querySelector('.page2');
+const page1Content = document.querySelector('.page1Content');
+const page2Content = document.querySelector('.page2Content');
+var navLink = document.querySelectorAll('.navLink');
+const webDesign = document.querySelector('#web-design');
+const logo = document.querySelector('#logo');
 
 
 
 window.addEventListener('scroll', () => {
-  const limit = 0.3;
-  const opacityLimit = 0.2;
+  const limit = 0.2;
+  const opacityLimit = 0.1;
   y=0;
   if(window.scrollY < limit*window.innerWidth){
     y =0;
@@ -34,4 +36,13 @@ window.addEventListener('scroll', () => {
      page2.style.backgroundColor = `rgb(${c}, ${c}, ${c})`;
      page2Content.style.opacity = (y*(100/255))/100;
      page1Content.style.opacity = 1-(o/100);
+
+     webDesign.style.backgroundColor = `rgb(${255-c}, ${255-c}, ${255-c})`;
+     webDesign.style.color = `rgb(${c}, ${c}, ${c})`;
+     logo.style.fill = `rgb(${255-c}, ${255-c}, ${255-c})`;
+     for (var i = 0; i < navLink.length; i++) {
+       navLink[i].style.color = `rgb(${255-c}, ${255-c}, ${255-c})`;
+     }
+     // navLink.style.color = `rgb(${255-c}, ${255-c}, ${255-c})`;
+
 })
