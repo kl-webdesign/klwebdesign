@@ -72,9 +72,14 @@ b:hover{
 }
 
 
-.textMain{
+.page1 .textMain{
   width: 37vw;
   height: 30vw;
+}
+.page2 .textMain{
+  float: left;
+
+
 }
 
 .page1 .contentContainer{
@@ -102,6 +107,15 @@ b:hover{
   transition-duration: 0.5s;
   float: left;
 }
+#aboutIMG{
+  margin-top: 1.35vw;
+  margin-left: 4vw;
+  height: 32vw;
+  transition-duration: 0.5s;
+  float: right;
+  order: 2;
+}
+
 
 
 #logo {
@@ -157,6 +171,9 @@ b:hover{
 .page2{
   height: 100vh;
 
+}
+.page3{
+  height: 100vh;
 }
 .page2 h2{
   margin-top: 0;
