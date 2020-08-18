@@ -7,6 +7,7 @@ var navLink = document.querySelectorAll('.navLink');
 const webDesign = document.querySelector('#web-design');
 const logo = document.querySelector('#logo');
 const navHover = document.querySelector('.navLink:hover');
+const body = document.querySelector('body');
 
 
 
@@ -35,7 +36,8 @@ window.addEventListener('scroll', () => {
 
      page1.style.backgroundColor = `rgb(${c}, ${c}, ${c})`;
      page2.style.backgroundColor = `rgb(${c}, ${c}, ${c})`;
-     page2Content.style.opacity = (y*(100/255))/100;
+     body.style.backgroundColor = `rgb(${c}, ${c}, ${c})`;
+     page2Content.style.opacity = (o/100);
      page1Content.style.opacity = 1-(o/100);
 
      webDesign.style.backgroundColor = `rgb(${255-c}, ${255-c}, ${255-c})`;

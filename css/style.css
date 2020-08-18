@@ -60,6 +60,7 @@ a{
   text-align: left;
   order: 2;
 }
+
 .page1 b{
   color: #3e46d7;
   transition-duration: 0.5s;
@@ -74,15 +75,23 @@ b:hover{
 .textMain{
   width: 37vw;
   height: 30vw;
-
 }
 
-#contentContainer{
+.page1 .contentContainer{
   float: right;
   height: 25vw;
   width: 60vw;
   margin-top: 20vw;
   margin-right: 10vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.page2 .contentContainer{
+  float: right;
+  height: 25vw;
+  width: 60vw;
+  margin-top: 15vw;
+  margin-right: 20vw;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -113,7 +122,6 @@ b:hover{
 }
 
 #navDiv{
-
   width: 15vw;
   height: 14vw;
   margin-top: 2vw;
@@ -152,12 +160,22 @@ b:hover{
 }
 .page2 h2{
   margin-top: 0;
-  margin-left: 2vw;
+  margin-bottom: 0;
   font-size: 9vw;
   font-family: 'PT Sans', sans-serif;
-  height: 1vw;
   letter-spacing: 0.15vw;
   text-align: left;
-  order: 2;
+  color: #FEE715;
+}
+.page2 h1 {
+
   color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -1vw;
+  font-weight: bold;
+  font-size: 1.9vw;
+  width: 40vw;
+  letter-spacing: 0.11vw;
+  transition-duration: 0.5s;
+  order: 1;
 }
