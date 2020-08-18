@@ -1,8 +1,15 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 body, html {
 
   margin: 0;
   height: 100%;
   background-color: white;
+  transition: background-color 1s ease;
+
 }
 
 ul{
@@ -17,46 +24,83 @@ li{
 
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 1.5vw;
-  margin-bottom: 0.3vw;
+  font-size: 1.8vw;
+  margin-bottom: 0.4vw;
+
 
 }
 a{
   text-decoration: none;
+  white-space: nowrap;
+  transition-duration: 0.5s;
+  padding-right: 0.5vw;
+
 }
 
-h1 {
-  background-color: black;
-  padding-top: 1vw;
-  padding-bottom: 3vw;
-  padding-left: 1vw;
-  color: white;
+.page1 h1 {
+
+  color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 2vw;
-  width: 40vw;
-  height: 15vw;
-  float: right;
+  font-size: 1.9vw;
+  width: 36vw;
+  margin-top: 10vw;
+  letter-spacing: 0.11vw;
+  transition-duration: 0.5s;
+  order: 1;
 }
+.page1 h2{
+  transition-duration: 0.5s;
+  margin-top: -3vw;
+  font-size: 9vw;
+  color: #3e46d7;
+  font-family: 'PT Sans', sans-serif;
+  height: 1vw;
+  letter-spacing: 0.15vw;
+  text-align: left;
+  order: 2;
+}
+.page1 b{
+  color: #3e46d7;
+  transition-duration: 0.5s;
+}
+b:hover{
+  color: black;
+  transition-duration: 0.5s;
+
+}
+
+
+.textMain{
+  width: 37vw;
+  height: 30vw;
+
+}
+
 #contentContainer{
   float: right;
-  height: 20vw;
-  width: 62.5vw;
+  height: 25vw;
+  width: 60vw;
+
   margin-right: 10vw;
+  display: flex;
+  flex-wrap: nowrap;
 }
 #profileIMG{
   margin-top: 1.35vw;
-  margin-right: 0vw;
-  height: 18.99vw;
+  margin-right: 2vw;
+  height: 22vw;
+  transition-duration: 0.5s;
   float: left;
 }
 
 
 #logo{
-  height: 14vw;
-  float: left;
+  height: 16vw;
   margin-left: 3vw;
   margin-top: 2vw;
+  float: left;
+  transition-duration: 0.5s;
 
 
 }
@@ -80,11 +124,40 @@ h1 {
   text-align: center;
   background-color: black;
   color: white;
-  font-size: 2vw;
+  transition-duration: 0.5s;
+  font-size: 2.5vw;
 }
+
+#navDiv a:hover{
+  background-color: black;
+  color: white;
+  padding-left: 0.5vw;
+  transition-duration: 0.5s;
+}
+
 
 
 .navLink{
   color: black;
 
+}
+
+.page1{
+  height: 100vh;
+}
+
+.page2{
+  height: 100vh;
+
+}
+.page2 h2{
+  margin-top: 0;
+  margin-left: 2vw;
+  font-size: 9vw;
+  font-family: 'PT Sans', sans-serif;
+  height: 1vw;
+  letter-spacing: 0.15vw;
+  text-align: left;
+  order: 2;
+  color: white;
 }

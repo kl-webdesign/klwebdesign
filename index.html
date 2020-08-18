@@ -2,30 +2,59 @@
 <html>
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
 
 <body>
-  <div id="navContainer">
-    <img src="svg/LOGO-TXT.svg" alt="LOGO" id="logo">
 
-    <div id="navDiv">
-      <nav>
-        <ul>
-          <li id="web-design">web design</li>
-          <li> <a href="about.html" class="navLink">about</a> </li>
-          <li> <a href="about.html" class="navLink">portfolio</a> </li>
-          <li> <a href="about.html" class="navLink">contact</a> </li>
-        </ul>
+  <div class="page1">
+    <div class="page1Content">
+      <div id="navContainer">
+        <img src="svg/LOGO-TXT.svg" alt="LOGO" id="logo">
 
-      </nav>
+        <div id="navDiv">
+          <nav>
+            <ul>
+              <li id="web-design">web design</li>
+              <li> <a href="#page2" class="navLink">about</a> </li>
+              <li> <a href="about.html" class="navLink">portfolio</a> </li>
+              <li> <a href="about.html" class="navLink">contact</a> </li>
+            </ul>
+
+          </nav>
+        </div>
+
+      </div>
+
+      <div id="contentContainer">
+        <img src="img/icon.png" alt="PROFILE" id="profileIMG">
+
+        <div class="textMain">
+          <h2> welcome</h2>
+          <h1>We aspire to create unique and modern websites to suit your needs. Get rid of the templates used time and time again and make your website <b>pop</b> with one of a kind designs attracting people to your website </h1>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  <div class="page2" id="page2">
+    <div class="page2Content">
+      <h2 >about</h2>
     </div>
 
   </div>
 
-  <div id="contentContainer">
-    <img src="img/icon.png" alt="PROFILE" id="profileIMG">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" >
+  $(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
 
-    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</h1>
-  </div>
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+  });
+</script>
 </body>
 
 </html>
