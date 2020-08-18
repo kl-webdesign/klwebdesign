@@ -6,6 +6,7 @@ const page2Content = document.querySelector('.page2Content');
 var navLink = document.querySelectorAll('.navLink');
 const webDesign = document.querySelector('#web-design');
 const logo = document.querySelector('#logo');
+const navHover = document.querySelector('.navLink:hover');
 
 
 
@@ -43,6 +44,4 @@ window.addEventListener('scroll', () => {
      for (var i = 0; i < navLink.length; i++) {
        navLink[i].style.color = `rgb(${255-c}, ${255-c}, ${255-c})`;
      }
-     // navLink.style.color = `rgb(${255-c}, ${255-c}, ${255-c})`;
-
 })

@@ -131,8 +131,6 @@ b:hover{
 }
 
 #navDiv a:hover{
-  background-color: black;
-  color: white;
   padding-left: 0.5vw;
   transition-duration: 0.5s;
 }
