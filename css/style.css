@@ -25,8 +25,34 @@ a{
   text-decoration: none;
 }
 
-#logo{
+h1 {
+  background-color: black;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+  padding-left: 1vw;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  width: 40vw;
+  height: 15vw;
+  float: right;
+}
+#contentContainer{
+  float: right;
+  height: 20vw;
+  width: 62.5vw;
+  margin-right: 10vw;
+}
+#profileIMG{
+  margin-top: 1.35vw;
+  margin-right: 0vw;
+  height: 18.99vw;
+  float: left;
+}
 
+
+#logo{
   height: 14vw;
   float: left;
   margin-left: 3vw;
