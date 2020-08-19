@@ -134,6 +134,7 @@ b:hover{
   float: right;
   order: 2;
 }
+
 .pImages{
   display: flex;
   flex-wrap: wrap;
@@ -244,6 +245,27 @@ b:hover{
   letter-spacing: 0.11vw;
   transition-duration: 0.5s;
 }
+.page4 h1 {
+
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -1vw;
+  margin-left: 1vw;
+  font-weight: bold;
+  font-size: 1.9vw;
+  width: 40vw;
+  letter-spacing: 0.11vw;
+  transition-duration: 0.5s;
+}
+.page4 a{
+  text-decoration: none;
+  color: white;
+}
+.page4 a:hover{
+  margin-left: 1vw;
+  transition-duration: 0.5s;
+}
+
 .page3 h2{
   transition-duration: 0.5s;
   margin-top: -3vw;
