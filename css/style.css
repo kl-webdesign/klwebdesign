@@ -78,8 +78,9 @@ b:hover{
 }
 .page2 .textMain{
   float: left;
-
-
+}
+.page3 .textMain{
+  order: 2;
 }
 
 .page1 .contentContainer{
@@ -92,6 +93,24 @@ b:hover{
   flex-wrap: nowrap;
 }
 .page2 .contentContainer{
+  float: right;
+  height: 25vw;
+  width: 60vw;
+  margin-top: 15vw;
+  margin-right: 20vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.page3 .contentContainer{
+  float: right;
+  height: 30vw;
+  width: 60vw;
+  margin-top: 20vw;
+  margin-right: 16vw;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.page4 .contentContainer{
   float: right;
   height: 25vw;
   width: 60vw;
@@ -115,7 +134,20 @@ b:hover{
   float: right;
   order: 2;
 }
-
+.pImages{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 1vw;
+  order: 1;
+}
+#pdcIMG{
+  margin-top: 1vw;
+  width: 20vw;
+  height: 8vw;
+}
 
 
 #logo {
@@ -131,7 +163,9 @@ b:hover{
 #navContainer{
   position: fixed;
   width: 100%;
-  height: 20vw;
+  height: 15vw;
+  background-color: white;
+  z-index: 9;
 
 }
 
@@ -175,6 +209,9 @@ b:hover{
 .page3{
   height: 100vh;
 }
+.page4{
+  height: 100vh;
+}
 .page2 h2{
   margin-top: 0;
   margin-bottom: 0;
@@ -195,4 +232,34 @@ b:hover{
   letter-spacing: 0.11vw;
   transition-duration: 0.5s;
   order: 1;
+}
+.page3 h1 {
+
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10vw;
+  font-weight: bold;
+  font-size: 1.9vw;
+  width: 40vw;
+  letter-spacing: 0.11vw;
+  transition-duration: 0.5s;
+}
+.page3 h2{
+  transition-duration: 0.5s;
+  margin-top: -3vw;
+  font-size: 9vw;
+  font-family: 'PT Sans', sans-serif;
+  height: 1vw;
+  letter-spacing: 0.15vw;
+  text-align: left;
+  color: #B80F0A;
+}
+.page4 h2{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 9vw;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.15vw;
+  text-align: left;
+  color: #006B38;
 }
