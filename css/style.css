@@ -1,44 +1,37 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-
 body, html {
-
   margin: 0;
   height: 100%;
   background-color: white;
   transition: background-color 1s ease;
-
 }
 
-ul{
+ul {
   float: left;
   list-style-type: none;
   color: white;
   margin-top: 2vw;
   margin-left: -1vw;
 }
-li{
 
-
+li {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 1.8vw;
   margin-bottom: 0.4vw;
-
-
 }
-a{
+
+a {
   text-decoration: none;
   white-space: nowrap;
   transition-duration: 0.5s;
   padding-right: 0.5vw;
-
 }
 
 .page1 h1 {
-
   color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -49,7 +42,8 @@ a{
   transition-duration: 0.5s;
   order: 1;
 }
-.page1 h2{
+
+.page1 h2 {
   transition-duration: 0.5s;
   margin-top: -3vw;
   font-size: 9vw;
@@ -61,43 +55,49 @@ a{
   order: 2;
 }
 
-.page1 b{
+.page1 b {
   color: #3e46d7;
   transition-duration: 0.5s;
 }
-b:hover{
+
+b:hover {
   color: black;
   transition-duration: 0.5s;
-
 }
 
-
-.page1 .textMain{
+.page1 .textMain {
   width: 37vw;
   height: 30vw;
 }
-.page2 .textMain{
+
+.page2 .textMain {
   float: left;
 }
-.page3 .textMain{
+
+.page3 .textMain {
   order: 2;
 }
-.page4 .blinker{
+
+.page4 .blinker {
   overflow: hidden;
   border-right: .15em solid #f6810e;
   white-space: nowrap;
   margin: 0 auto;
   animation:
     blink-caret .75s step-end infinite;
-  }
-
-@keyframes blink-caret {
-  from, to  {border-color: transparent}
-  50% {border-color: #f6810e}
 }
 
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
 
-.page1 .contentContainer{
+  50% {
+    border-color: #f6810e
+  }
+}
+
+.page1 .contentContainer {
   float: right;
   height: 25vw;
   width: 60vw;
@@ -106,7 +106,8 @@ b:hover{
   display: flex;
   flex-wrap: nowrap;
 }
-.page2 .contentContainer{
+
+.page2 .contentContainer {
   float: right;
   height: 25vw;
   width: 60vw;
@@ -115,7 +116,8 @@ b:hover{
   display: flex;
   flex-wrap: nowrap;
 }
-.page3 .contentContainer{
+
+.page3 .contentContainer {
   float: right;
   height: 40vw;
   width: 60vw;
@@ -124,7 +126,8 @@ b:hover{
   display: flex;
   flex-wrap: nowrap;
 }
-.page4 .contentContainer{
+
+.page4 .contentContainer {
   float: right;
   height: 25vw;
   width: 60vw;
@@ -133,14 +136,16 @@ b:hover{
   display: flex;
   flex-wrap: nowrap;
 }
-#profileIMG{
+
+#profileIMG {
   margin-top: 1.35vw;
   margin-right: 2vw;
   height: 22vw;
   transition-duration: 0.5s;
   float: left;
 }
-#aboutIMG{
+
+#aboutIMG {
   margin-top: 1.35vw;
   margin-left: 4vw;
   height: 32vw;
@@ -149,7 +154,7 @@ b:hover{
   order: 2;
 }
 
-.pImages{
+.pImages {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -158,12 +163,12 @@ b:hover{
   margin-top: 1vw;
   order: 1;
 }
-#pdcIMG{
+
+#pdcIMG {
   margin-top: 1vw;
   width: 20vw;
   height: 8vw;
 }
-
 
 #logo {
   height: 16vw;
@@ -173,22 +178,22 @@ b:hover{
   transition-duration: 0.5s;
 }
 
-#navContainer{
+#navContainer {
   position: fixed;
   width: 100%;
   height: 15vw;
   background-color: white;
   z-index: 9;
-
 }
 
-#navDiv{
+#navDiv {
   width: 15vw;
   height: 14vw;
   margin-top: 2vw;
   float: left;
 }
-#web-design{
+
+#web-design {
   white-space: nowrap;
   padding-left: 0.5vw;
   padding-right: 0.5vw;
@@ -199,33 +204,32 @@ b:hover{
   font-size: 2.5vw;
 }
 
-#navDiv a:hover{
+#navDiv a:hover {
   padding-left: 0.5vw;
   transition-duration: 0.5s;
 }
 
-
-
-.navLink{
+.navLink {
   color: black;
-
 }
 
-.page1{
+.page1 {
   height: 100vh;
 }
 
-.page2{
+.page2 {
   height: 100vh;
+}
 
-}
-.page3{
+.page3 {
   height: 100vh;
 }
-.page4{
+
+.page4 {
   height: 100vh;
 }
-.page2 h2{
+
+.page2 h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 9vw;
@@ -234,8 +238,8 @@ b:hover{
   text-align: left;
   color: #FEE715;
 }
-.page2 h1 {
 
+.page2 h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
   margin-top: -1vw;
@@ -246,8 +250,8 @@ b:hover{
   transition-duration: 0.5s;
   order: 1;
 }
-.page3 h1 {
 
+.page3 h1 {
   color: black;
   font-family: 'Roboto', sans-serif;
   margin-top: 10vw;
@@ -257,8 +261,8 @@ b:hover{
   letter-spacing: 0.11vw;
   transition-duration: 0.5s;
 }
-.page4 h1 {
 
+.page4 h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
   margin-top: -1vw;
@@ -269,22 +273,22 @@ b:hover{
   letter-spacing: 0.11vw;
   transition-duration: 0.5s;
 }
-.page4 a{
+
+.page4 a {
   text-decoration: none;
   transition-duration: 0.5s;
   color: white;
 }
-.page4 a:hover{
 
-}
-.page3 a:hover{
+.page4 a:hover {}
+
+.page3 a:hover {
   margin-bottom: 1vw;
   margin-top: 1vw;
   transition-duration: 0.5s;
 }
 
-
-.page3 h2{
+.page3 h2 {
   transition-duration: 0.5s;
   margin-top: -3vw;
   font-size: 9vw;
@@ -294,7 +298,8 @@ b:hover{
   text-align: left;
   color: #B80F0A;
 }
-.page4 h2{
+
+.page4 h2 {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 9vw;
@@ -302,4 +307,191 @@ b:hover{
   letter-spacing: 0.15vw;
   text-align: left;
   color: #f6810e;
+}
+  #design-mobile {
+    display: none;
+  }
+  .arrow{
+    display: none;
+  }
+
+@media screen and (max-width: 600px) {
+  #navDiv{
+    display: none;
+  }
+
+  #logo {
+    height: 40vw;
+  }
+
+  #navContainer {
+    height: 42vw;
+  }
+
+  .page1 .contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50vw;
+    height: 40vh;
+  }
+
+  .page1 .textMain {
+    margin-left: 16vw;
+    width: 80vw;
+    height: 80vh;
+    order: -1;
+  }
+
+  .page1 h1 {
+    padding-top: 5vw;
+    font-size: 6vw;
+    width: 100%;
+  }
+
+  .page1 h2 {
+    font-size: 18vw;
+  }
+
+  .page2 .contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35vw;
+    height: 40vh;
+  }
+
+  .page2 .textMain {
+    margin-left: 25vw;
+    width: 80vw;
+    height: 80vh;
+    order: -1;
+  }
+
+  .page2 h1 {
+    font-size: 5.1vw;
+    width: 100%;
+  }
+
+  .page2 h2 {
+    font-size: 16.5vw;
+  }
+
+  .page3 .contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vw;
+    height: 40vh;
+  }
+
+  .page3 .textMain {
+    margin-left: 25vw;
+    width: 80vw;
+    height: 80vh;
+    order: -1;
+  }
+
+  .page3 h1 {
+    font-size: 5.1vw;
+    width: 100%;
+  }
+
+  .page3 h2 {
+    margin-bottom: 20vw;
+    font-size: 16.5vw;
+  }
+  .page4 .contentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40vw;
+    height: 40vh;
+  }
+
+  .page4 .textMain {
+    margin-left: 25vw;
+    width: 80vw;
+    height: 80vh;
+    order: -1;
+  }
+
+  .page4 h1 {
+    font-size: 5.1vw;
+    width: 100%;
+  }
+
+  .page4 h2 {
+    margin-bottom: 5vw;
+    font-size: 16.5vw;
+  }
+
+  #profileIMG {
+    margin-left: 40vw;
+    margin-top: 5vw;
+    height: 45vw;
+    object-fit: contain;
+  }
+
+  #aboutIMG {
+    margin-left: 65vw;
+    margin-top: 5vw;
+    height: 55vw;
+    object-fit: contain;
+  }
+  #pdcIMG{
+    margin-top: 1vw;
+    width: 40vw;
+    height: 16vw;
+  }
+  .pImages{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 28vw;
+    margin-top: 5vw;
+    order: 1;
+  }
+  #design-mobile {
+    display: block;
+
+    margin-bottom: 0.4vw;
+    white-space: nowrap;
+    margin-left: 50vw;
+    margin-top: 18.57vw;
+    transition-duration: 0.5s;
+    font-size: 7vw;
+
+  }
+  h3{
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 43vw;
+    text-align: center;
+
+  }
+  .arrow{
+    position: fixed;
+    margin-top: 90vh;
+    margin-left: 85vw;
+    color: black;
+    width: 8vw;
+  }
+  .page1{
+    margin-bottom: -1px;
+  }
+  .page2{
+    margin-bottom: -1px;
+  }
+  .page3{
+    margin-bottom: -1px;
+  }
+  .page4{
+    margin-bottom: -1px;
+  }
+
 }
