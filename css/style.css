@@ -324,18 +324,35 @@ b:hover {
   }
 
   #logo {
-    height: 40vw;
+    height: 14vh;
   }
 
   #navContainer {
-    height: 42vw;
+    height: 16vh;
   }
 
+  #design-mobile {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-left: 1.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: 5vh;
+    margin-left: 45vw;
+    line-height: 1;
+    white-space: nowrap;
+    background-color: black;
+    font-size: 6vw;
+    width: 32vw;
+  }
   .page1 .contentContainer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 50vw;
+    margin-top: 20vh;
     height: 40vh;
   }
 
@@ -360,7 +377,7 @@ b:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 35vw;
+    margin-top: 5vh;
     height: 40vh;
   }
 
@@ -384,7 +401,7 @@ b:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 40vw;
+    margin-top: 5vh;
     height: 40vh;
   }
 
@@ -408,7 +425,7 @@ b:hover {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: 40vw;
+    margin-top: 5vh;
     height: 40vh;
   }
 
@@ -438,47 +455,29 @@ b:hover {
 
   #aboutIMG {
     margin-left: 65vw;
-    margin-top: 5vw;
-    height: 55vw;
+    height: 40vh;
     object-fit: contain;
   }
   #pdcIMG{
     margin-top: 1vw;
+
     width: 40vw;
     height: 16vw;
   }
   .pImages{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     margin-left: 28vw;
     margin-top: 5vw;
     order: 1;
     width: 48vw;
-  }
-  #design-mobile {
-    display: block;
-
-    margin-bottom: 0.4vw;
-    white-space: nowrap;
-    margin-left: 50vw;
-    margin-top: 18.57vw;
-    transition-duration: 0.5s;
-    font-size: 7vw;
 
   }
-  h3{
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: white;
-    background-color: black;
-    width: 43vw;
-    text-align: center;
 
-  }
+
   .arrow{
+    display: block;
     position: fixed;
     margin-top: 90vh;
     margin-left: 85vw;
@@ -487,15 +486,20 @@ b:hover {
   }
   .page1{
     margin-bottom: -1px;
+    height: 100vh;
   }
   .page2{
     margin-bottom: -1px;
+    height: 100vh;
   }
   .page3{
     margin-bottom: -1px;
+    height: 100vh;
   }
   .page4{
     margin-bottom: -1px;
+    height: calc(100vh - 32.5vw);
+
   }
 
 }
