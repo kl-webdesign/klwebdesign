@@ -82,6 +82,20 @@ b:hover{
 .page3 .textMain{
   order: 2;
 }
+.page4 .blinker{
+  overflow: hidden;
+  border-right: .15em solid #f6810e;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    blink-caret .75s step-end infinite;
+  }
+
+@keyframes blink-caret {
+  from, to  {border-color: transparent}
+  50% {border-color: #f6810e}
+}
+
 
 .page1 .contentContainer{
   float: right;
@@ -103,7 +117,7 @@ b:hover{
 }
 .page3 .contentContainer{
   float: right;
-  height: 30vw;
+  height: 40vw;
   width: 60vw;
   margin-top: 20vw;
   margin-right: 16vw;
@@ -157,8 +171,6 @@ b:hover{
   margin-top: 2vw;
   float: left;
   transition-duration: 0.5s;
-
-
 }
 
 #navContainer{
@@ -259,12 +271,18 @@ b:hover{
 }
 .page4 a{
   text-decoration: none;
+  transition-duration: 0.5s;
   color: white;
 }
 .page4 a:hover{
-  margin-left: 1vw;
+
+}
+.page3 a:hover{
+  margin-bottom: 1vw;
+  margin-top: 1vw;
   transition-duration: 0.5s;
 }
+
 
 .page3 h2{
   transition-duration: 0.5s;
