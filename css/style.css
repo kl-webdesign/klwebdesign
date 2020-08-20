@@ -8,6 +8,9 @@ body, html {
   background-color: white;
   transition: background-color 1s ease;
 }
+body{
+  overflow-x: hidden;
+}
 
 ul {
   float: left;
@@ -451,6 +454,7 @@ b:hover {
     margin-left: 28vw;
     margin-top: 5vw;
     order: 1;
+    width: 48vw;
   }
   #design-mobile {
     display: block;
